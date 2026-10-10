@@ -14,7 +14,6 @@ Solves a 40-city Traveling Salesman Problem with **Simulated Annealing (SA)** (2
 | File | What it is |
 |---|---|
 | `TSP_SA_and_GA_Assignment.ipynb` | Completed notebook with all TODOs implemented, Part 6 analysis, Part 7 extra-credit experiments. **All outputs, graphs and tables are saved in the notebook.** |
-| `tsp_sa_ga.py` | The same code exported as a plain Python script |
 | `CSCI580_Assignment4_Report.pdf` | Technical report (problem, methods with code, results, analysis) |
 | `figures/` | Every plot from the notebook as a PNG |
 | `requirements.txt` | Python dependencies |
@@ -31,13 +30,6 @@ pip install -r requirements.txt
 jupyter notebook TSP_SA_and_GA_Assignment.ipynb
 ```
 Then choose **Kernel → Restart & Run All**.
-
-### Option 3 — Plain Python script
-```bash
-pip install -r requirements.txt
-python tsp_sa_ga.py
-```
-Plots open one after another in windows (close each to continue).
 
 Every run uses fixed random seeds, so the numbers above are reproduced exactly.
 
